@@ -1,0 +1,21 @@
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar {
+    background-color: #3A3335;
+}
+.navbar a {
+    margin-right: 2rem;
+    color: #FDF0D5;
+}
+
+.navbar a:hover {
+    color: #cac4b9;
+}
+
+.navbar ul li a {
+    color: #3A3335;
+    font-weight: 600;
+}
