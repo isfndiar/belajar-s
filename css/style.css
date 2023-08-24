@@ -6,16 +6,38 @@ body {
 .navbar {
     background-color: #3A3335;
 }
-.navbar a {
+.navbar .navbar-brand {
     margin-right: 2rem;
     color: #FDF0D5;
+}
+
+.navbar a {
+    color: black;
 }
 
 .navbar a:hover {
     color: #cac4b9;
 }
 
-.navbar ul li a {
+.navbar .dropdown-menu a {
     color: #3A3335;
     font-weight: 600;
 }
+
+
+/* section */
+
+
+div#gpt {
+    padding-top: 4rem;
+    /* background-color: aqua; */
+}
+
+footer {
+    height: 4rem;
+    padding: 1rem 0 2rem;
+    width: 100%;
+    background-color: #3A3335;
+    color: #cac4b9;
+}
+  
